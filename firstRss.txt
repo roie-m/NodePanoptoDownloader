@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
+  <channel>
+    <title>206828w: 206828 - עיצוב טכנולוגיות וחדשנות 2 - חורף תשע"ו</title>
+    <link>https://panoptotech.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=9e79c8d1-b1db-431a-b3f5-ff297104bace</link>
+    <itunes:subtitle>Podcast feed for Panopto folder "206828w: 206828 - עיצוב טכנולוגיות וחדשנות 2 - חורף תשע"ו"</itunes:subtitle>
+    <image>
+      <url>https://panoptotech.cloud.panopto.eu/Panopto/Services/FrameGrabber.svc/FrameRedirect?objectId=bdb7104f-0a31-4217-abc1-46c415a31ea4&amp;mode=Delivery&amp;random=0.522370043919594</url>
+      <title>206828w: 206828 - עיצוב טכנולוגיות וחדשנות 2 - חורף תשע"ו</title>
+      <link>https://panoptotech.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=9e79c8d1-b1db-431a-b3f5-ff297104bace</link>
+    </image>
+    <itunes:image href="https://panoptotech.cloud.panopto.eu/Panopto/Services/FrameGrabber.svc/FrameRedirect?objectId=bdb7104f-0a31-4217-abc1-46c415a31ea4&amp;mode=Delivery&amp;random=0.522370043919594" />
+    <itunes:category text="Education">
+      <itunes:category text="Higher Education" />
+    </itunes:category>
+    <item>
+      <title>האם אנחנו מוכנים לרעידת אדמה ולמצבי חירום קיצוניים?</title>
+      <itunes:author>admin</itunes:author>
+      <itunes:summary>האם אנחנו מוכנים לרעידת אדמה ולמצבי חירום קיצוניים?</itunes:summary>
+      <enclosure url="https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/bdb7104f-0a31-4217-abc1-46c415a31ea4.mp4?mediaTargetType=videoPodcast" length="1821224169" type="video/mp4" />
+      <guid>https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/bdb7104f-0a31-4217-abc1-46c415a31ea4.mp4</guid>
+      <pubDate>Sun, 08 Nov 2015 19:57:51 GMT</pubDate>
+      <itunes:duration>5750</itunes:duration>
+    </item>
+    <item>
+      <title>הזקנה היא העתיד</title>
+      <itunes:author>admin</itunes:author>
+      <itunes:summary>הזקנה היא העתיד</itunes:summary>
+      <enclosure url="https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/b1927289-98c6-4bc0-8486-110c7939e71a.mp4?mediaTargetType=videoPodcast" length="1618823152" type="video/mp4" />
+      <guid>https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/b1927289-98c6-4bc0-8486-110c7939e71a.mp4</guid>
+      <pubDate>Mon, 09 Nov 2015 07:17:46 GMT</pubDate>
+      <itunes:duration>5107</itunes:duration>
+    </item>
+    <item>
+      <title>Digital craft</title>
+      <itunes:author>admin</itunes:author>
+      <itunes:summary>Digital craft</itunes:summary>
+      <enclosure url="https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/d3c71e9b-5f7b-4e8b-b53e-c55d69c775d9.mp4?mediaTargetType=videoPodcast" length="1409377896" type="video/mp4" />
+      <guid>https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/d3c71e9b-5f7b-4e8b-b53e-c55d69c775d9.mp4</guid>
+      <pubDate>Tue, 10 Nov 2015 08:21:05 GMT</pubDate>
+      <itunes:duration>4449</itunes:duration>
+    </item>
+    <item>
+      <title>Beyond Human Error</title>
+      <itunes:author>admin</itunes:author>
+      <itunes:summary>Beyond Human Error</itunes:summary>
+      <enclosure url="https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/5a2308fa-f011-4316-a27c-597151b7c587.mp4?mediaTargetType=videoPodcast" length="1284531520" type="video/mp4" />
+      <guid>https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/5a2308fa-f011-4316-a27c-597151b7c587.mp4</guid>
+      <pubDate>Tue, 10 Nov 2015 13:45:49 GMT</pubDate>
+      <itunes:duration>4054</itunes:duration>
+    </item>
+    <item>
+      <title>ביג דטה ותהליכי עיצוב ידע מקוונים</title>
+      <itunes:author>admin</itunes:author>
+      <itunes:summary>ביג דטה ותהליכי עיצוב ידע מקוונים</itunes:summary>
+      <enclosure url="https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/338a15d7-61c4-4c8c-99d7-935d03a1cf29.mp4?mediaTargetType=videoPodcast" length="1887228497" type="video/mp4" />
+      <guid>https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/338a15d7-61c4-4c8c-99d7-935d03a1cf29.mp4</guid>
+      <pubDate>Sat, 21 Nov 2015 19:53:42 GMT</pubDate>
+      <itunes:duration>5954</itunes:duration>
+    </item>
+    <item>
+      <title>Synthetic Biology application</title>
+      <itunes:author>admin</itunes:author>
+      <itunes:summary>Synthetic Biology application</itunes:summary>
+      <enclosure url="https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/9e0fe767-1483-48f3-a8c7-89d6979db9da.mp4?mediaTargetType=videoPodcast" length="296104567" type="video/mp4" />
+      <guid>https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/9e0fe767-1483-48f3-a8c7-89d6979db9da.mp4</guid>
+      <pubDate>Sun, 29 Nov 2015 23:00:06 GMT</pubDate>
+      <itunes:duration>2362</itunes:duration>
+    </item>
+    <item>
+      <title>SIDEWALKS</title>
+      <itunes:author>admin</itunes:author>
+      <itunes:summary>SIDEWALKS</itunes:summary>
+      <enclosure url="https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/1e9edfed-1a68-4f7b-a66a-e1fd08dd9057.mp4?mediaTargetType=videoPodcast" length="1176063475" type="video/mp4" />
+      <guid>https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/1e9edfed-1a68-4f7b-a66a-e1fd08dd9057.mp4</guid>
+      <pubDate>Mon, 28 Dec 2015 17:40:57 GMT</pubDate>
+      <itunes:duration>3712</itunes:duration>
+    </item>
+    <item>
+      <title>Aquatourism</title>
+      <itunes:author>admin</itunes:author>
+      <itunes:summary>Aquatourism</itunes:summary>
+      <enclosure url="https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/36702ffc-22b9-401b-8fe6-40e2b5b89c0f.mp4?mediaTargetType=videoPodcast" length="1276436623" type="video/mp4" />
+      <guid>https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/36702ffc-22b9-401b-8fe6-40e2b5b89c0f.mp4</guid>
+      <pubDate>Tue, 02 Feb 2016 11:46:16 GMT</pubDate>
+      <itunes:duration>4037</itunes:duration>
+    </item>
+    <item>
+      <title>שוטטות</title>
+      <itunes:author>admin</itunes:author>
+      <itunes:summary>שוטטות</itunes:summary>
+      <enclosure url="https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/f799158c-c6af-4f94-9488-5fddaeda01a9.mp4?mediaTargetType=videoPodcast" length="1299872136" type="video/mp4" />
+      <guid>https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/f799158c-c6af-4f94-9488-5fddaeda01a9.mp4</guid>
+      <pubDate>Wed, 03 Feb 2016 00:17:43 GMT</pubDate>
+      <itunes:duration>4112</itunes:duration>
+    </item>
+  </channel>
+</rss>

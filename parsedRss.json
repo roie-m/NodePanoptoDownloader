@@ -1,0 +1,56 @@
+{
+   "feed": {
+      "entries": [
+         {
+            "title": "האם אנחנו מוכנים לרעידת אדמה ולמצבי חירום קיצוניים?",
+            "pubDate": "Sun, 08 Nov 2015 19:57:51 GMT",
+            "enclosure": {
+               "url": "https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/bdb7104f-0a31-4217-abc1-46c415a31ea4.mp4?mediaTargetType=videoPodcast",
+               "length": "1821224169",
+               "type": "video/mp4"
+            },
+            "guid": "https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/bdb7104f-0a31-4217-abc1-46c415a31ea4.mp4",
+            "itunes": {
+               "author": "admin",
+               "summary": "האם אנחנו מוכנים לרעידת אדמה ולמצבי חירום קיצוניים?",
+               "duration": "5750"
+            }
+         },
+         {
+            "title": "הזקנה היא העתיד",
+            "pubDate": "Mon, 09 Nov 2015 07:17:46 GMT",
+            "enclosure": {
+               "url": "https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/b1927289-98c6-4bc0-8486-110c7939e71a.mp4?mediaTargetType=videoPodcast",
+               "length": "1618823152",
+               "type": "video/mp4"
+            },
+            "guid": "https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/b1927289-98c6-4bc0-8486-110c7939e71a.mp4",
+            "itunes": {
+               "author": "admin",
+               "summary": "הזקנה היא העתיד",
+               "duration": "5107"
+            }
+         },
+         {
+            "title": "Digital craft",
+            "pubDate": "Tue, 10 Nov 2015 08:21:05 GMT",
+            "enclosure": {
+               "url": "https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/d3c71e9b-5f7b-4e8b-b53e-c55d69c775d9.mp4?mediaTargetType=videoPodcast",
+               "length": "1409377896",
+               "type": "video/mp4"
+            },
+            "guid": "https://panoptotech.cloud.panopto.eu/Panopto/Podcast/Syndication/d3c71e9b-5f7b-4e8b-b53e-c55d69c775d9.mp4",
+            "itunes": {
+               "author": "admin",
+               "summary": "Digital craft",
+               "duration": "4449"
+            }
+         }
+           ],
+      "title": "206828w: 206828 - עיצוב טכנולוגיות וחדשנות 2 - חורף תשע\"ו",
+      "link": "https://panoptotech.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=9e79c8d1-b1db-431a-b3f5-ff297104bace",
+      "itunes": {
+         "subtitle": "Podcast feed for Panopto folder \"206828w: 206828 - עיצוב טכנולוגיות וחדשנות 2 - חורף תשע\"ו\""
+      }
+   }
+}
