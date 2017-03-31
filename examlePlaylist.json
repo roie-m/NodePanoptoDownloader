@@ -1,0 +1,13 @@
+{
+    "title": "Example Course 1",
+    "videos": [
+        {
+            "name": "Lecture 1",
+            "source": "some final URL1"
+        },
+        {
+            "name": "Lecture 2",
+            "source": "some final URL2"
+        }
+    ]
+}

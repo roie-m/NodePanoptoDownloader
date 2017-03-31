@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "catch-redirect-url": "^1.0.2",
+    "follow-redirects": "^1.2.3",
     "fs-extra": "^2.1.2",
     "mkdirp": "^0.5.1",
+    "mt-files-downloader": "^0.2.5",
     "rss-parser": "^2.6.1"
   }
 }

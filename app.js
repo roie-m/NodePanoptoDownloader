@@ -1,19 +1,22 @@
-var rssParser = require("rss-parser"), 
-    fse = require('fs-extra'), 
-    path  = require('path');
+// var fse = require('fs-extra'),
+//     parse = require("./src/_parseNewPlaylist"),
+//     path = require('path'),
+//     download = require("./src/_downloadPlaylist");
 
-var content = "firstRss.txt";
-rssParser.parseFile(content, function(err, parsed) {
-  console.log(JSON.stringify(parsed, null, 3));
-  var courseTitle = parsed.feed.title;
-  console.log("Course Title is:" + courseTitle);
-  var coursePath = path.join(courseTitle);
-  coursePath = coursePath.slice(8); //slice 'courseNumber:' from beginning of name
-  coursePath = coursePath.replace('"',''); // delete '"' if in string
-    console.log("Course Path is:" + coursePath);
+// // find the path to the txt rss file ,and give it to parse
+// var content = "./firstRss.txt";
+// var playlist = parsePlaylist(content);
 
-    fse.ensureDirSync(coursePath)
+// console.log(" recieved playlist: " + playlist);
 
 
-  
-})
+
+// // make sure a folder for the coursePath exists (if doesnt, open it).
+// // since the playlist title is a valid name for a folder, we can join for a final path.
+// var playlistPath = path.join(playlist.title);
+// fse.ensureDirSync(playlistPath);
+
+
+// TESTING A MODULE 
+var content = "./firstRss.txt";
+var playlist = parsePlaylist(content);
