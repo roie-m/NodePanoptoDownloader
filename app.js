@@ -19,16 +19,34 @@ async.waterfall([
 // Receive: -
 // Return:playlist - a playlist object redy to download.
 function getPlaylist(cb) {
+    var pathToFile = "./firstRss.txt";
+    var playlist = parsePlaylist(pathToFile, function (playlist) {
+        // setTimeout(function (playlist) {
+        //             console.log("well wait 3 sec..");
+        //                 console.log(" recieved playlist outside if: " + JSON.stringify(playlist, null, 3));
 
-    // find the path to the txt rss file ,and give it to parse
-    var content = "./firstRss.txt";
-    var playlist = parsePlaylist(content);
-    console.log(" recieved playlist: " + playlist);
-
-    if (!(typeof playlist === 'undefined') || (typeof playlist === 'object')) {
-        console.log(" recieved playlist: " + playlist);
         cb(null, playlist);
-    }
+    });
+    // }, 3000);
+
+    // async.until(
+    //     function () { return (!(typeof playlist === 'undefined') || (typeof playlist === 'object')) },
+    //     function (cbe) {
+    //         setTimeout(function () {
+    //             console.log("well wait a sec..");
+    //             cbe();
+    //         }, 1000);
+
+    //     },
+    //     function (err) {
+    //         console.log(" recieved playlist inside if: " + JSON.stringify(playlist, null, 3));
+    //         cb(null, playlist);
+    //     }
+    // );
+    // while (!(!(typeof playlist.title === 'undefined') || (typeof playlist.title === 'string'))) {
+    //   console.log("waiting for playlist...playlist is: "+JSON.stringify(playlist, null, 3));  
+    // }
+
 }
 
 
