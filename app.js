@@ -17,7 +17,7 @@ async.waterfall([
 // Receive: a callback(playlist) to run when gets the final playlist.
 // Return:playlist - a playlist object redy to download.
 function getPlaylist(cb) {
-    var pathToFile = "./firstRss.txt";
+    var pathToFile = "./0.txt";
     var playlist = parsePlaylist(pathToFile, function (playlist) {
         cb(null, playlist);
     });
