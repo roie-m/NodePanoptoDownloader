@@ -3,10 +3,6 @@ var follow = require('catch-redirect-url'),
     path = require('path'),
     async = require('async');
 
-
-
-
-
 function _parsePlaylist(pathToFile,callback) {
     var pathToFile = pathToFile.toString();
     // console.log("this is pathToFile: " + pathToFile + ", which is a : " + typeof pathToFile);
@@ -46,7 +42,7 @@ function _parsePlaylist(pathToFile,callback) {
         var preformattedTitle = parsedRss.feed.title;
         // console.log("raw course title is: " + preformattedTitle);
         var validTitle = preformattedTitle.slice(8); //slice 'courseNumberS:' from beginning of name
-        validTitle = validTitle.replace('"', ''); // delete '"' if in string
+        validTitle = validTitle.replace(/[\\/:*?""<>|]/g,""); // delete invalid charechtars if in string
         // console.log("valid course title is: " + validTitle);
 
         playlist.title = validTitle;
@@ -64,7 +60,8 @@ function _parsePlaylist(pathToFile,callback) {
         playlist.videos = []; // an empty array to hold the parsed entries.
         // console.log("the following should be the array of entries from the rss: " + JSON.stringify(entries, null, 3));
         entries.forEach(function (entry) {
-            playlist.videos.push({ name: entry.title, source: entry.guid });
+            var validName = entry.title.replace(/[\\/:*?""<>|]/g,"");
+            playlist.videos.push({ name: validName, source: entry.guid });
         });
 
         // console.log("this is how a playlist object should look like: " + JSON.stringify(playlist, null, 3));
