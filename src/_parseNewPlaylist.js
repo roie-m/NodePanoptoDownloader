@@ -6,7 +6,7 @@ var follow = require('catch-redirect-url'),
 
 
 
-var parsePlaylist = function (pathToFile) {
+function _parsePlaylist(pathToFile) {
     var pathToFile = pathToFile.toString();
     // console.log("this is pathToFile: " + pathToFile + ", which is a : " + typeof pathToFile);
     async.waterfall([
@@ -18,8 +18,8 @@ var parsePlaylist = function (pathToFile) {
         // Last callback,runs after all above ends.
         // returns the final playlist object.
         var finalPlaylist = result;
-        console.log("This is the final playlist object: " + JSON.stringify(finalPlaylist, null, 3));
-        return finalPlaylist;
+        // console.log("This is the final playlist object: " + JSON.stringify(finalPlaylist, null, 3));
+        module.exports.playlist = finalPlaylist;
     });
 
     // parseFile: Parse the file from RSS TXT to a JS object.
@@ -93,11 +93,9 @@ var parsePlaylist = function (pathToFile) {
             cb(null, playlist); // exiting the function, returning the final playlist object.
 
         });
-
-        // cb(null, playlist); END OF followURLs
     }
 
 
 };
 
-module.exports = parsePlaylist;
+module.exports._parsePlaylist = _parsePlaylist;
